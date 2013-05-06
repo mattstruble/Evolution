@@ -1,0 +1,7 @@
+D:\SVN\Evolution.git\trunk\Evolution\Evolution\Evolution\bin\x86\Debug\Content\blank.xnb
+D:\SVN\Evolution.git\trunk\Evolution\Evolution\Evolution\bin\x86\Debug\Evolution.exe
+D:\SVN\Evolution.git\trunk\Evolution\Evolution\Evolution\bin\x86\Debug\Evolution.pdb
+D:\SVN\Evolution.git\trunk\Evolution\Evolution\Evolution\obj\x86\Debug\Evolution.csprojResolveAssemblyReference.cache
+D:\SVN\Evolution.git\trunk\Evolution\Evolution\Evolution\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\SVN\Evolution.git\trunk\Evolution\Evolution\Evolution\obj\x86\Debug\Evolution.exe
+D:\SVN\Evolution.git\trunk\Evolution\Evolution\Evolution\obj\x86\Debug\Evolution.pdb

@@ -1,0 +1,1 @@
+D:\SVN\Evolution.git\trunk\Evolution\Evolution\EvolutionContent\obj\x86\Debug\EvolutionContent.contentprojResolveAssemblyReference.cache
