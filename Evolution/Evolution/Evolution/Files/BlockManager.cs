@@ -39,7 +39,7 @@ namespace Evolution.Files
 
 			_blockSize = new Vector2(50);
 
-			_updateTime = _timeUntilUpdate = 5000;
+			_updateTime = _timeUntilUpdate = 1000;
 		}
 
 		public void loadContent(ContentManager pContent)
@@ -153,7 +153,7 @@ namespace Evolution.Files
 				g1 = tg1 = b1.getGene();
 				g2 = tg2 = b2.getGene();
 
-				swapPoint = tg1.Length;
+				swapPoint = _rand.Next(tg1.Length);
 
 				for(int i = 0; i < tg1.Length; i ++)
 				{
@@ -164,16 +164,20 @@ namespace Evolution.Files
 					}
 
 					if (_rand.Next(0, 100) < 20)
-						if (_rand.Next(0, 100) < 50)
-							g1[i] += .1f;
-						else
-							g1[i] -= .1f;
+					{
+						float tmp = (int)(g1[i] * 100);
+						tmp = _rand.Next((int)tmp - 5, (int)tmp + 5);
+						tmp /= 100;
+						g1[i] = tmp;
+					}
 
 					if (_rand.Next(0, 100) < 20)
-						if (_rand.Next(0, 100) < 50)
-							g2[i] += .1f;
-						else
-							g2[i] -= .1f;
+					{
+						float tmp = (int)(g2[i] * 100);
+						tmp = _rand.Next((int)tmp - 5, (int)tmp + 5);
+						tmp /= 100;
+						g2[i] = tmp;
+					}
 
 				}
 
